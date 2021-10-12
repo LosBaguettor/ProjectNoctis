@@ -468,7 +468,7 @@ namespace ProjectNoctis.Factories.Concrete
                 {
                     embed.Fields.Add(new EmbedFieldBuilder()
                     {
-                        Name = $"{heroAbility.Info.Name}",
+                        Name = $"{heroAbility.Info.Name} - {heroAbility.Info.ID}",
                         Value = $"{heroAbility.Info.Effects} - {heroAbility.Info.Type} - {heroAbility.Info.Formula} - {heroAbility.Info.Multiplier} - {heroAbility.Info.Target} - {heroAbility.Info.Time} - {heroAbility.Info.SB}"
                     });
                 }
